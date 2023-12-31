@@ -1,7 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
 
-^r::Reload
-
 !n::Run "notepad"
 !v:: {
   Run "C:\Windows\system32\cmd.exe /k code"
@@ -21,10 +19,10 @@
   Run prog.Value
 }
 
-!j::WheelDown
-!k::WheelUp
-!h::+WheelLeft
-!l::+WheelRight
+!j::Down
+!k::Up
+!h::Left
+!l::Right
 
 !g::^Home
 !G::^End
